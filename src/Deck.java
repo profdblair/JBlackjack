@@ -58,8 +58,8 @@ public class Deck {
     public Card Deal() throws Exception {
         if (deck.size() > 1)
         {
-            Card card = deck.getFirst();
-            deck.removeFirst();
+            Card card = deck.get(0);
+            deck.remove(0);
             return card;
         }
         else
