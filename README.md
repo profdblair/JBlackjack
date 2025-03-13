@@ -9,3 +9,10 @@
 -   loop to play again y/n
 -   format output better
 -   show dealer hand at first, one card up and one down
+
+### Compile
+
+-    Open into a terminal window
+-    Change directory to src (Source directory)
+-    Compile by typing: javac *.java
+-    Run by typing: java Blackjack
